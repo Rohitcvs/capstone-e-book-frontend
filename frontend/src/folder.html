@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Folders - E-Book</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <div class="container folder-container">
+    <h2>Welcome, Tanay!</h2>
+    <p>Create a folder or open an existing one to review previous pages or create new ones.</p>
+
+    <div class="folder-creation">
+      <label for="folderName">Folder Name:</label>
+      <input type="text" id="folderName" placeholder="Enter folder name">
+      <button class="btn">+</button>
+    </div>
+
+    <div class="folder-list">
+      <div class="folder-item">Folder 1</div>
+      <div class="folder-item">Folder 2</div>
+      <div class="folder-item">Folder 3</div>
+    </div>
+
+    <!-- Example: create folder modal / or separate page (not functional here) -->
+    <!-- 
+    <div class="modal">
+      <h3>NEW FOLDER</h3>
+      <label for="newFolderName">Enter folder name:</label>
+      <input type="text" id="newFolderName">
+
+      <label for="folderDescription">Add description:</label>
+      <textarea id="folderDescription"></textarea>
+
+      <button class="btn">DONE</button>
+      <button class="btn btn-secondary">CANCEL</button>
+    </div>
+    -->
+
+    <!-- Link to a page showing pages within "MY FOLDER" if you want -->
+    <div class="my-folder">
+      <h3>MY FOLDER</h3>
+      <p>You are inside the folder “MY FOLDER”. Create new pages or review old ones.</p>
+      <div>
+        <label for="pageName">Page name:</label>
+        <input type="text" id="pageName" placeholder="Enter page name">
+        <button class="btn">Create Page</button>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
